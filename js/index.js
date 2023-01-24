@@ -26,3 +26,11 @@ output += '(!a&&!c) = ' + (!a&&!c)+"\n";
 output += '(!a||!c) = ' + (!a||!c)+"\n";
 
 alert(output);
+
+let first_name = "Thao";
+let last_name = "Do";
+let email ="thaomaido@gmail.com";
+let sentence ;
+
+output = "My name is" + " " + first_name + " " + last_name + " " + "." + "You can contact me at" + " " + email + " ";
+alert(output);
